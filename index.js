@@ -2,90 +2,90 @@ const perguntas = [
     {
     pergunta: "O que significa a sigla CRM?",
     respostas: [
-      "A) Customer Relations Management",
-      "B) Customer Resource Management",
-      "C) Customer Relationship Management",
+      "Customer Relations Management",
+      "Customer Resource Management",
+      "Customer Relationship Management",
     ],
     correta: 2
   },
   {
     pergunta: "Qual é o principal objetivo do CRM?",
     respostas: [
-      "A) Aumentar a receita da empresa",
-      "B) Melhorar o relacionamento com os clientes",
-      "C) Reduzir custos operacionais",
+      "Aumentar a receita da empresa",
+      "Melhorar o relacionamento com os clientes",
+      "Reduzir custos operacionais",
     ],
     correta: 1
   },
   {
     pergunta: "Quais são os benefícios do CRM para uma empresa?",
     respostas: [
-      "A) Aumento da lealdade do cliente e aumento da eficiência operacional",
-      "B) Diminuição da satisfação do cliente e redução de vendas",
-      "C) Aumento de custos e diminuição da produtividade",
+      "Aumento da lealdade do cliente e aumento da eficiência operacional",
+      "Diminuição da satisfação do cliente e redução de vendas",
+      "Aumento de custos e diminuição da produtividade",
     ],
     correta: 0
   },
   {
     pergunta: "Qual é uma das principais funcionalidades do CRM?",
     respostas: [
-      "A) Automatização de processos de vendas",
-      "B) Criação de descontentamento do cliente",
-      "C) Aumento de barreiras de comunicação com os clientes",
+      "Automatização de processos de vendas",
+      "Criação de descontentamento do cliente",
+      "Aumento de barreiras de comunicação com os clientes",
     ],
     correta: 0
   },
   {
     pergunta: "Quais são os tipos de CRM mais comuns?",
     respostas: [
-      "A) Operacional, Analítico e Colaborativo",
-      "B) Manual, Analógico e Digital",
-      "C) Marketing, Finanças e Produção",
+      "Operacional, Analítico e Colaborativo",
+      "Manual, Analógico e Digital",
+      "Marketing, Finanças e Produção",
     ],
     correta: 0
   },
   {
     pergunta: "Como o CRM pode ajudar na personalização do atendimento ao cliente?",
     respostas: [
-      "A) Armazenando informações relevantes sobre os clientes",
-      "B) Ignorando as preferências dos clientes",
-      "C) Não registrando interações anteriores com os clientes",
+      "Armazenando informações relevantes sobre os clientes",
+      "Ignorando as preferências dos clientes",
+      "Não registrando interações anteriores com os clientes",
     ],
     correta: 0
   },
   {
     pergunta: "O que é automação de marketing em CRM?",
     respostas: [
-      "A) Utilização de robôs para atendimento ao cliente",
-      "B) Automação de tarefas de marketing como e-mails e campanhas",
-      "C) Ignorar totalmente as estratégias de marketing",
+      "Utilização de robôs para atendimento ao cliente",
+      "Automação de tarefas de marketing como e-mails e campanhas",
+      "Ignorar totalmente as estratégias de marketing",
     ],
     correta: 1
   },
   {
     pergunta: "Como o CRM pode ajudar na previsão de vendas?",
     respostas: [
-      "A) Analisando o comportamento de compra dos clientes",
-      "B) Não fornecendo insights sobre as tendências de mercado",
-      "C) Mantendo os dados de vendas desatualizados",
+      "Analisando o comportamento de compra dos clientes",
+      "Não fornecendo insights sobre as tendências de mercado",
+      "Mantendo os dados de vendas desatualizados",
     ],
     correta: 0
   },
   {
     pergunta: "Por que é importante a integração do CRM com outros sistemas da empresa?",
     respostas: [
-      "A) Para garantir que todas as informações relevantes estejam centralizadas",
-      "B) Para aumentar a confusão e dificultar a tomada de decisões",
-      "C) Para reduzir a eficiência dos processos empresariais",
+      "Para garantir que todas as informações relevantes estejam centralizadas",
+      "Para aumentar a confusão e dificultar a tomada de decisões",
+      "Para reduzir a eficiência dos processos empresariais",
     ],
     correta: 0
   },
   {
     pergunta: "Quais são os principais desafios na implementação de um sistema CRM?",
     respostas: [
-      "A) Adoção pelos usuários, qualidade dos dados e integração com sistemas existentes",
-      "B) Falta de investimento, falta de suporte e desconhecimento sobre os clientes",
-      "C) Ignorar completamente as necessidades dos clientes",
+      "Adoção pelos usuários, qualidade dos dados e integração com sistemas existentes",
+      "Falta de investimento, falta de suporte e desconhecimento sobre os clientes",
+      "Ignorar completamente as necessidades dos clientes",
     ],
     correta: 0
   }
@@ -113,7 +113,7 @@ const perguntas = [
          const estaCorreta = event.target.value == item.correta
    
          corretas.delete(item)
-         if(estaCorreta) {
+         if(estaCorreta){
            corretas.add(item)
          }  
    
