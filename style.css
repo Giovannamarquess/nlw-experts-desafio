@@ -15,15 +15,15 @@
 }
 
 body {
-  background-color: #f4dfa5;
+  background-color: #b4d8ff;
   text-align: left;
   font-size: 14px;
-  color: #794713;
+  color: #4678d6;
 }
 
 a {
   text-decoration: none;
-  color: #794713;
+  color: #4678d6;
 }
 
 main {
@@ -35,14 +35,14 @@ main {
 header {
   margin-top: 64px;
   padding-bottom: 24px;
-  border-bottom: 1px solid #f0803b;
+  border-bottom: 1px solid #4678d6;
 
 }
 
 header h1 {
   margin-top: 24px;
   font-size: 30px;
-  color: #f0803b;
+  color: #4678d6;
   }
 
 #quiz {
@@ -51,7 +51,7 @@ header h1 {
 
 .quiz-item {
   margin-top: 24px;
-  border: 1px solid #f0803b;
+  border: 1px solid #4678d6;
   border-radius: 6px;
   overflow: hidden;
 }
@@ -64,14 +64,14 @@ header h1 {
   align-items: center;
   gap: 12px;
 
-  background-color: #f0803b;
+  background-color: #4678d6;
 }
 
 .quiz-item h3:before {
   counter-increment: quiz-item;
   content: counter(quiz-item);
 
-  background-color: #794713;
+  background-color: #7da8eb;
   width: 28px;
   height: 28px;
   font-size: 12px;
@@ -98,12 +98,12 @@ header h1 {
   display: flex;
   align-items: center;
   gap: 8px;
-  color: #794713;
+  color: #4678d6;
 }
 
 input {
   all: unset;
-  border: 1px solid #794713;
+  border: 1px solid #4678d6;
   width: 16px;
   height: 16px;
 
@@ -116,7 +116,7 @@ input {
 }
 
 input:checked {
-  border: 1px solid #f09d46;
+  border: 1px solid #4678d6;
 }
 
 /*pseudo-selector */ 
@@ -124,14 +124,14 @@ input:checked:before {
   content: "";
   width: 10px;
   height: 10px;
-  background: #f09d46;
+  background: #6290e0;
   border-radius: 50%;
 }
 
 /* declaração */
 #acertos {
   text-align: center;
-  background-color: #f0803b;
+  background-color: #4678d6;
   color: #FFFFFF;
 
   position: fixed;

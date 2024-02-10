@@ -12,10 +12,10 @@
 }
 
 body {
-  background-color: #f4dfa5;
+  background-color: #b4d8ff;
   text-align: left;
   font-size: 14px;
-  color: #794713;
+  color: #4678d6;
 }
 
 main {
@@ -31,7 +31,7 @@ margin: 0 auto;
 header {
 margin-top: 64px;
 padding-bottom: 24px;
-border-bottom: 1px solid #f0803b;
+border-bottom: 1px solid #4678d6;
 }
 
 header p {
@@ -43,13 +43,13 @@ header p {
 header h1 {
   font-size: 30px;
   margin-top: 20px;
-  color: #f0803b;
+  color: #4678d6;
   text-align: center;
 }
 
 #Resultado {
   margin-top: 24px;
-  border: 1px solid #f0803b;
+  border: 1px solid #4678d6;
   border-radius: 6px;
   overflow: hidden;
   width: 450px;
@@ -65,21 +65,21 @@ header h1 {
   justify-content: center;
   align-items: center;
   
-  background-color: #f0803b;
+  background-color: #4678d6;
 }
 
 #Resultado p {
-  background-color: #f4dfa5;
+  background-color: #99c0f5;
   font-size: 16px;
   gap: 12px;
   padding: 16px 20px;
-  color: #794713; 
+  color: #fff; 
   text-align: center;
 }
 
 .botao-voltar {
 text-align: center;
-background-color: #f0803b;
+background-color: #4678d6;
 position: fixed;
 bottom: 0;
 left: 0;
@@ -91,7 +91,6 @@ cursor: pointer;
 }
 
 .botao-voltar:hover {
-  background-color: #f6985e;
-  color: #794713;
+  background-color: #6290e0;
   font-weight: 700;
 }
