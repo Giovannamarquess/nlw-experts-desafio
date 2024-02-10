@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+*, :root {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter' , sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothin: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: #f4dfa5;
+  text-align: left;
+  font-size: 14px;
+  color: #794713;
+}
+
+main {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+padding: 20 px;
+max-width: 640px;
+margin: 0 auto;
+}
+
+header {
+margin-top: 64px;
+padding-bottom: 24px;
+border-bottom: 1px solid #f0803b;
+}
+
+header p {
+  font-size: 12px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 30px;
+  margin-top: 20px;
+  color: #f0803b;
+  text-align: center;
+}
+
+#Resultado {
+  margin-top: 24px;
+  border: 1px solid #f0803b;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 450px;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+#Resultado h3 {
+  padding: 16px 20px;
+  color: #FFFFFF;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+  background-color: #f0803b;
+}
+
+#Resultado p {
+  background-color: #f4dfa5;
+  font-size: 16px;
+  gap: 12px;
+  padding: 16px 20px;
+  color: #794713; 
+  text-align: center;
+}
+
+.botao-voltar {
+text-align: center;
+background-color: #f0803b;
+position: fixed;
+bottom: 0;
+left: 0;
+width: 100%;
+padding: 12px;
+color: #FFFFFF;
+border: none;
+cursor: pointer;
+}
+
+.botao-voltar:hover {
+  background-color: #f6985e;
+  color: #794713;
+  font-weight: 700;
+}
