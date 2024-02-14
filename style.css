@@ -54,6 +54,7 @@ header h1 {
   border: 1px solid #4678d6;
   border-radius: 6px;
   overflow: hidden;
+  background-color: #99c0f5;
 }
 
 .quiz-item h3 {
@@ -83,9 +84,13 @@ header h1 {
   flex-shrink: 0;
   }
 
+.question-options {
+  color:#FFFFFF;
+
+}
+
 .quiz-item dl {
   padding: 20px 24px;
-
   display: grid;
   gap: 8px;
 }
@@ -124,7 +129,7 @@ input:checked:before {
   content: "";
   width: 10px;
   height: 10px;
-  background: #6290e0;
+  background: #FFFFFF;
   border-radius: 50%;
 }
 
